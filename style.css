@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0e0e0e;
+  color: white;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Courier New", monospace;
+  color: red;
+  font-size: 3em;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: darkred;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: crimson;
+}
+
+.characters {
+  padding: 20px;
+  text-align: center;
+}
+
+.char-box {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+  background-color: #111;
+  width: 120px;
+}
+
+.gallery {
+  background-image: url('https://logos-world.net/wp-content/uploads/2020/05/Stranger-Things-season-1-Logo-2016-700x394.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+  color: #ccc;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0%   { background-color: black; }
+  50%  { background-color: darkred; }
+  100% { background-color: black; }
+}
